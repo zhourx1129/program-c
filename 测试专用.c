@@ -2,6 +2,6 @@
 
 int main(){
 	int c=1;
-	int a = c + --c;
-	printf("%d\n",a);
+	int a = (++c)+(++c)+(++c);
+	printf("%d  %d\n",a,c);
 }
