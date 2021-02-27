@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int arr[9] = {9,5,3,7,6,8,1,2,4};
+	int arr[11] = {6,5,3,7,9,23,6,8,1,2,4};
 	int i,j,tmp,sz;
+	int k;
 	sz = sizeof(arr)/sizeof(arr[0]);
 	for (i=1;i<sz;i++){
 		for (j=i;j>0;j--){
