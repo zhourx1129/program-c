@@ -27,6 +27,10 @@ int main()
 	for(i = 0; i <= 255; i++)
 		printf("helloworld\n");
 	*/
+	printf("%d",10%3); // 1
+	printf("%d",-10%3); // -1
+	printf("%d",10%-3); // 1
+	printf("%d",-10%-3); // -1
 }
 
 
